@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#About{
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#About form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 22px;
+}
+#About #About1{
+	font-size: 2rem;
+    font-weight: 600;
+}
+#About #About2{
+    font-size: 1.5rem;
+  	font-weight: 550;
+	color: red;
+}
+#About #About3{
+    margin-top: 2vh;
+    font-size: 1.3rem;
+}
+
+
+
+#Comment{
+	display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    width: 100%;
+}
+#Comment form{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 22px;
+}
+#Comment #Comment1{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+#Comment #Comment2{
+	font-size: 1.5rem;
+    font-weight: 550;
+    color: red;
+    text-align: center;
+}
+#Comment label{
+    margin-top: 2vh;
+    font-size: 1.2rem;
+}
+#Comment input{
+    height: 34px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+#Comment textarea{
+    height: 11vh;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.3rem;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+#Comment #Commentbtn{
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+#Comment #Commentbtn button{
+    width: 95px;
+    background-color: deeppink;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+#Comment #Commentbtn button a{
+    text-decoration: none;
+    color: white;
+}

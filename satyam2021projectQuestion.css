@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#Title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 2vh;
+}
+#Title form{
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    width: 80%;
+}
+#Title #Title1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+#Title #Title2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red;
+}
+#Title #Title3{
+    margin-top: 1vh;
+    font-size: 1.9rem;
+    font-weight: 550;
+}
+#Title #Title4{
+    font-size: 1.2rem;
+}
+#Title #Title5{
+    margin-top: 1vh;
+    font-size: 1.5rem;
+}
+#Title #Title5 #Links{
+    margin-left: 1vh;
+    color: #0172ff
+}
+
+
+
+#Discussion{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#Discussion form{
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    width: 90%;
+}
+#Discussion #Discussion1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+#Discussion #Discussion2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+}
+#Discussion label{
+font-size: 1.3rem;
+margin-top: 1vh;
+}
+#Discussion input{
+    height: 34px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    outline: none;
+}
+#Discussion textarea{
+    height: 11vh;
+    font-size: 1.3rem;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+#Discussion #Discussionbtn{
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+#Discussion #Discussionbtn button{
+    width: 95px;
+    background-color: deeppink;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#Doubts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#Doubts form{
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    width: 85%;
+}
+#Doubts #Doubts1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+#Doubts #Doubts2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+}
+#Doubts input{
+    height: 34px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    outline: none
+}
+#Doubts #Doubtsbtn{
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+#Doubts #Doubtsbtn button{
+    width: 95px;
+    background-color: deeppink;
+    border: none;
+    outline: none;
+    color: white; 
+    cursor: pointer;
+}
+#Back{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    height: 34px;
+}
+#Back button{
+    width: 95px;
+    background-color: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#Back button a{
+    text-decoration: none;
+    color: white;
+}

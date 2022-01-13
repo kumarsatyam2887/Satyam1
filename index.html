@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="satyam2021project.css">
+	<link rel="stylesheet" type="text/css" href="satyam20211project.css">
+	<link rel="stylesheet" type="favicon" href="favicon.ico">
+	<title>Document</title>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="nav-first">
+			<div class="logo"><img src="favicon.ico"></div>
+		
+			<ul class="ul-list">
+				<li class="li-item"><a href="index.html" class="a">Home</a></li>
+				<li class="li-item"><a href="satyam2021projectQuestion.html" class="a">Question</a></li>
+				<li class="li-item"><a href="satyam2021abouts.html" class="a">About us</a></li>
+				<li class="li-item"><a href="satyam2021projectcontact.html" class="a">Contact us</a></li>
+			</ul>
+		</div>
+
+		<div class="nav-second">
+			<div class="search">
+				<input type="text" placeholder="Search" id="search">
+				<button id="btn">Search</button>
+			</div>
+			
+			<button class="btn"><a href="satyam2021projectsign.html" style="text-decoration: none; color: white
+			;">Sign in</a></button>
+			<button class="btn"><a href="satyam2021projectlogin.html" style="text-decoration: none; color: white
+			;">Login</a></button>
+		</div>
+
+<button class="hamburger" id="hamburger">
+		<div class="hamburger-child"></div>
+		<div class="hamburger-child"></div>
+		<div class="hamburger-child"></div>
+	</button>
+	
+	</nav>
+
+
+<div class="responsive" id="responsive">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="satyam2021projectQuestion.html">questions</a></li>
+		<li><a href="satyam2021abouts.html">About us</a></li>
+		<li><a href="satyam2021projectcontact.html">Contact us</a></li>
+		<li>
+			<div>
+				<input type="text" placeholder="search" class="" id="small_search">
+				<button id="btns">Search</button>
+			</div>
+		</li>
+		<li>
+			<div>
+				<button><a href="satyam2021projectsign.html" style="text-decoration: none; color: white
+			;">Sign in</a></button>
+				<button><a href="satyam2021projectlogin.html" style="text-decoration: none; color: white
+			;">login in</a></button>
+			</div>
+		</li>
+
+	</ul>
+
+	<button class="cut" id="cut">
+		<div id="cut-div-1"></div>
+		<div id="cut-div-2"></div>
+	</button>
+</div>
+
+<script type="text/javascript">
+	let hamburger   = document.getElementById('hamburger')
+	let responsive = document.getElementById('responsive')
+
+	hamburger.addEventListener('click',(event)=>{
+		responsive.style.display = 'block';
+	
+	})
+
+	let cut =document.getElementById('cut');
+	cut.addEventListener('click',(event)=>{
+		responsive.style.display = 'none';
+	
+	})
+</script>
+
+
+<script type="text/javascript">
+	let search = document.getElementById('search')
+	let btn = document.getElementById('btn')
+	btn.addEventListener('click',(event)=>{
+		let data = search.value.toLowerCase()
+		window.location.href = `question.php?data=${data}`;
+	
+	})
+
+
+	let btns = document.getElementById('btns')
+	let small_search = document.getElementById('small_search')
+	
+	btns.addEventListener('click',(event)=>{
+		let new_data = small_search.value.toLowerCase()
+		window.location.href = `question.php/?data=${new_data}`;
+	
+	})
+
+</script>
+
+<section id="img">
+	<div><img src="yibei-geng--UdYbiywGeg-unsplash.jpg"></div>
+</section>
+
+<section id="imgup">
+	<label id="Hey">Hey I am</label>
+	<input type="text" name="" placeholder="Name">
+	<label id="Developer">I am a Web designer</label>
+	<button>Hire me</button>
+</section>
+
+<section id="Myself">
+	<label id="About">About me</label>
+	<label id="Who">Who I am?</label>
+	<div class="description">
+		<div id="media"><img src="images (5).jpeg"></div>
+		<a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque excepturi consectetur debitis neque repudiandae nam aliquid aperiam, eum maxime enim doloremLorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque excepturi consectetur debitis neque repudiandae nam aliquid aperiam, eum maxime enim doloremLorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque excepturi consectetur debitis neque repudiandae nam aliquid aperiam, eum maxime enim dolorem<br><br><div id="Myselfbutton"><button>Read More</button></div></a>
+	</div>
+</section>
+
+<section id="Services">
+	<label id="Topservices">Services</label>
+	<label id="Provide">Which we Provide</label>
+	<div class="Container">
+		<div class="Box" id="Service">
+			<div id="Servicesimg"><img src="b2.png"></div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cumque amet in praesentium deleniti id natus dolore iusto sit fuga!</p>
+		</div>
+		<div class="Box" id="Service1">
+			<div id="Servicesimg"><img src="b2.png"></div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cumque amet in praesentium deleniti id natus dolore iusto sit fuga!</p>
+		</div>
+		<div class="Box" id="Service2">
+			<div id="Servicesimg"><img src="b2.png"></div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cumque amet in praesentium deleniti id natus dolore iusto sit fuga!</p>
+		</div>
+	</div>
+</section>
+
+<section id="Contact">
+	<form>
+		<div id="Contactus"><a>Contact us</a></div>
+		<label>Name</label>
+		<input type="text">	
+		<label>Mobile number</label>
+		<input type="text">
+		<label>E-mail</label>
+		<input type="text">
+		<label>Message</label>
+		<textarea></textarea>
+		<div id="Contactbutton"><button>Submit</button></div>
+	</form>
+</section>
+
+<section id="footer">
+    <footer>
+         <a id="cc">&copy;</a><a id="All">All rights reserved</a>
+    </footer>
+</section>
+
+</body>
+</html>
+
